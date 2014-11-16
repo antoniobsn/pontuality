@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  user_name: MyString
+  project_name: MyString
+  time_activity: 2014-11-16
+  date_activity: 2014-11-16
+  status: MyString
+
+two:
+  user_name: MyString
+  project_name: MyString
+  time_activity: 2014-11-16
+  date_activity: 2014-11-16
+  status: MyString

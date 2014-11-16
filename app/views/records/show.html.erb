@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User name:</b>
+  <%= @record.user_name %>
+</p>
+
+<p>
+  <b>Project name:</b>
+  <%= @record.project_name %>
+</p>
+
+<p>
+  <b>Time activity:</b>
+  <%= @record.time_activity %>
+</p>
+
+<p>
+  <b>Date activity:</b>
+  <%= @record.date_activity %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @record.status %>
+</p>
+
+
+<%= link_to 'Edit', edit_record_path(@record) %> |
+<%= link_to 'Back', records_path %>
